@@ -1,5 +1,5 @@
 # volleyball-stats
-A Python program I wrote in high school using the TkInter GUI library and CSV library that drastically improved the process of jotting stats for our volleyball team.
+A Python program I wrote in high school using the TkInter GUI library and CSV library that heavily facilitated the process of jotting stats for our volleyball team.
 
 User changes the roster text file to add or remove players (Last, First JerseyNumber).
 User can input name of Opposing Team.
