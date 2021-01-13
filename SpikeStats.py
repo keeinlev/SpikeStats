@@ -482,6 +482,7 @@ playerNameLabel = Label(mainframe, textvariable = playerNameVar, font = ("Arial 
 errorVar = StringVar()
 errorVarLabel = Label(mainframe, textvariable = errorVar)
 playerEntry = Entry(mainframe)
+playerEntry.insert(END, "Jersey Number")
 playerEntry.bind("<Return>", changePlayer)
 
 undoButton = Button(mainframe, text = 'Undo', command = undo)
