@@ -61,7 +61,7 @@ can be applicable in so many ways. Have a look at the features and inner functio
 program below.</p>
 
 
-<a name="features"></a><h1>Features</h1>
+# <h1>Features</h1>
 <h2>Stat Button Grid</h2>
 <p>Upon running the application, the user in encountered with a large grid full of buttons,
 most of which display the label of a relevant volleyball stat.</p>
