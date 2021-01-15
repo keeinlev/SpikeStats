@@ -6,7 +6,7 @@ of the program)</h2>
 <!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
 <p>SpikeStats is a Python program I wrote in high school using the TkInter GUI library and 
-CSV library that heavily facilitated the process of jotting stats for our chool volleyball
+CSV library that heavily facilitated the process of jotting stats for our school volleyball
 team.</p>
 
 ![appScreenshot](/screenshots/entiress.png/)
@@ -90,7 +90,7 @@ is clicked twice, or if the wrong stat was clicked.</p>
 <p>In order to record a stat for a given player, the user must enter their jersey number into
 the appointed text box, then press "Enter".</p>
 
-![defaultJerseyScreenshot](/screenshots/defaultjersey.png/)
+![defaultJerseyScreenshot](/screenshots/defaultjersey.png/)<br>
 ![enterPlayerScreenshot](/screenshots/validjersey.png/)
 
 <p>Players' jersey numbers and full names will be echoed to a label which appears in the blank
@@ -144,7 +144,6 @@ to the session only while the application is running.</p>
 <h2>End of Game CSV File Generation</h2>
 <p>Creates a new .csv file in the local directory displaying all stats recorded in the session.</p>
 
-![csvInFolderScreenshot](/screenshots/generatedcsv.png/)
 ![csvOpenedScreenshot](/screenshots/openedcsv.png/)
 
 <p>This feature takes all the data from the structure created to store the stats and writes
@@ -159,6 +158,8 @@ will depend on the input of this text box. <b></p>
 ![confirmVSScreenshot](/screenshots/aftervsteam.png/)
 
 <p>Titles will be in the form of "YYYY-MM-DD vs. OpposingTeam"</p>
+
+![csvInFolderScreenshot](/screenshots/generatedcsv.png/)
 
 
 <h2>Check Stats Button</h2>
