@@ -1,7 +1,7 @@
 # SpikeStats
 
 <h1>Introduction</h1>
-<h2>(skip to [Features](#features) section for detailed look at the interface and structure
+<h2>(skip to [features](#features) section for detailed look at the interface and structure
 of the program)</h2>
 <!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
