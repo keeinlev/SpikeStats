@@ -13,7 +13,6 @@
     * [Check Stats Button](#check-stats-button)
 
 # Introduction
-<!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
 <p>SpikeStats is a Python program I wrote in high school using the TkInter GUI library and 
 CSV library that heavily facilitated the process of jotting stats for our school volleyball
