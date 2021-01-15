@@ -9,6 +9,8 @@ of the program)</h2>
 CSV library that heavily facilitated the process of jotting stats for our chool volleyball
 team.</p>
 
+![myImage](/screenshots/entiress.png/)
+
 <p>The creation of this project stemmed from when I had volunteered as a stat-taker and
 general assistant for the Sr. Girls Volleyball Team at my high school.
 I myself am a volleyball player, having played both competitively and in school for three years,
