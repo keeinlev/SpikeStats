@@ -1,8 +1,7 @@
 # SpikeStats
 
-<h1>Introduction</h1>
-<h2>(skip to <a href="#features">Features</a> section for detailed look at the interface and structure
-of the program)</h2>
+# Introduction
+## (skip to <a href="#features">Features</a> section for detailed look at the interface and structure of the program)
 <!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
 <p>SpikeStats is a Python program I wrote in high school using the TkInter GUI library and 
@@ -14,7 +13,7 @@ team.</p>
 <p>The creation of this project stemmed from when I had volunteered as a stat-taker and
 general assistant for the Sr. Girls Volleyball Team at my high school.
 I myself am a volleyball player, having played both competitively and in school for three years,
-and I hadknown the importance of keeping stats in order to understand the team's and individual
+and I had known the importance of keeping stats in order to understand the team's and individual
 players' strengths and weaknesses. Taking stats was one of the most emphasized commands
 given by my rep coach and I have stood by his data-oriented approach to the sport to
 this day.</p>
@@ -25,8 +24,8 @@ types of stats in the remaining space of the sheet. Every hit, every dig, every 
 and more was jotted down beside a player's name. We must have carried maybe twenty of these
 sheets with us at all times.</p>
 
-<p>Now you can imagine that this was not an efficient nor easy task, as volleyball is a fast-
-paced sport. One look too long at the sheet to find a player's name could result in missing
+<p>Now you can imagine that this was not an efficient nor easy task, as volleyball is a fast-paced
+sport. One look too long at the sheet to find a player's name could result in missing
 the next play, and then you would be sitting there asking everyone else what just happened:
 more time wasted, more time for the next play to be missed.</p>
 
@@ -63,8 +62,8 @@ can be applicable in so many ways. Have a look at the features and inner functio
 program below.</p>
 
 
-<h1><a id="features"></a>Features
-<h2>Stat Button Grid</h2>
+# <a id="features"></a>Features
+## Stat Button Grid
 <p>Upon running the application, the user in encountered with a large grid full of buttons,
 most of which display the label of a relevant volleyball stat.</p>
 
@@ -86,7 +85,7 @@ the end tallies will correspond to the correct number of points.</p>
 is clicked twice, or if the wrong stat was clicked.</p>
 
 
-<h2>Assigning a Stat to a Player</h2>
+## Assigning a Stat to a Player
 <p>In order to record a stat for a given player, the user must enter their jersey number into
 the appointed text box, then press "Enter".</p>
 
@@ -108,18 +107,18 @@ is "No changes made yet".</p>
 <p>Trying to press "Enter" while an invalid jersey number is inputted will result in an error
 message in both the player name text label and the changes made text label.</p>
 
-![invalidJerseyScreenshot](/screenshots/invalidjersey.png/)
+![enterErrorScreenshot](/screenshots/errorsjersey.png/)
 
 <p>To avoid incorrect addition of stats, pressing "Enter" after entering a valid jersey number
 is <b>required</b>. The user will be prompted to press "Enter" if they attempt to click a
 stat button after only typing in a new jersey number into the text box and not pressing "Enter".</p>
 
-![enterErrorScreenshot](/screenshots/errorsjersey.png/)
+![invalidJerseyScreenshot](/screenshots/invalidjersey.png/)
 
 
-<h3>Developer's Notes</h3>
+### Developer's Notes
 <p>While writing this feature, I knew that the user would probably be more accustomed to the 
-players' names,but I felt like entire names would take too long to write out, and some players
+players' names, but I felt like entire names would take too long to write out, and some players
 shared the same first or last names, so this was not a viable approach. I chose to use jersey
 numbers as identifiers since each player has a unique number. Also, the number would always be
 on the player's back, whereas last names were not included on school uniforms. Since players
@@ -127,13 +126,13 @@ literally wear their numbers, it's easy for the user to remember who performed t
 just witnessed. I found this to be the optimal method of associating players to their data.</p>
 
 
-<h2>Game Flow</h2>
+## Game Flow
 <p>Generates a small colored bar graph illustrating the point distribution over time between
 both teams </p>
 
 ![gameFlowScreenshot](/screenshots/flow.png/)
 
-<h3>Developer's Notes</h3>
+### Developer's Notes
 <p>A feature that was implemented much later after the initial version of the application.
 Gives a general idea of how the momentum of the game changes over time and highlights the
 points at which a team may struggle to score at an attempt to locate trends. This was never
@@ -141,7 +140,7 @@ fully implemented so the data does not export into the CSV file, but rather stay
 to the session only while the application is running.</p>
 
 
-<h2>End of Game CSV File Generation</h2>
+## End of Game CSV File Generation
 <p>Creates a new .csv file in the local directory displaying all stats recorded in the session.</p>
 
 ![csvOpenedScreenshot](/screenshots/openedcsv.png/)
@@ -162,7 +161,7 @@ will depend on the input of this text box. <b></p>
 ![csvInFolderScreenshot](/screenshots/generatedcsv.png/)
 
 
-<h2>Check Stats Button</h2>
+## Check Stats Button
 <p>Logs the main data structure containing all stats to the console, helpful for making sure
 the correct changes were made without having to create the final .csv file.</p>
 
