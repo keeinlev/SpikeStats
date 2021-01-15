@@ -102,6 +102,7 @@ which must be written on its own to match the team information.</p>
 above the "Block Errors" and "Blocked" buttons. Observe that the default value of the label
 is "No changes made yet".</p>
 
+![defaultStatScreenshot](/screenshots/defaultchange.png/)
 ![changeStatScreenshot](/screenshots/addstat.png/)
 
 <p>Trying to press "Enter" while an invalid jersey number is inputted will result in an error
