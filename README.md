@@ -1,7 +1,7 @@
 # SpikeStats
 
 <h1>Introduction</h1>
-<h2>(skip to [features](#features) section for detailed look at the interface and structure
+<h2>(skip to <a href="#-features">Features</a> section for detailed look at the interface and structure
 of the program)</h2>
 <!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
@@ -61,7 +61,7 @@ can be applicable in so many ways. Have a look at the features and inner functio
 program below.</p>
 
 
-# <h1>Features</h1>
+# Features
 <h2>Stat Button Grid</h2>
 <p>Upon running the application, the user in encountered with a large grid full of buttons,
 most of which display the label of a relevant volleyball stat.</p>
