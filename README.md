@@ -9,7 +9,7 @@ of the program)</h2>
 CSV library that heavily facilitated the process of jotting stats for our chool volleyball
 team.</p>
 
-![myImage](/screenshots/entiress.png/)
+![appScreenshot](/screenshots/entiress.png/)
 
 <p>The creation of this project stemmed from when I had volunteered as a stat-taker and
 general assistant for the Sr. Girls Volleyball Team at my high school.
@@ -68,6 +68,8 @@ program below.</p>
 <p>Upon running the application, the user in encountered with a large grid full of buttons,
 most of which display the label of a relevant volleyball stat.</p>
 
+[gridScreenshot](/screenshots/buttongrid.png/)
+
 <p>The grid is mostly organized by actions that the player can make. For example, the first
 column includes "Hit", "Kill" and "Error", all stats relevant to the action of attacking
 across the net. The next column is reserved for serve-related stats. The third and fourth
@@ -88,20 +90,32 @@ is clicked twice, or if the wrong stat was clicked.</p>
 <p>In order to record a stat for a given player, the user must enter their jersey number into
 the appointed text box, then press "Enter".</p>
 
+[defaultJerseyScreenshot](/screenshots/defaultjersey.png/)
+[enterPlayerScreenshot](/screenshots/validjersey.png/)
+
 <p>Players' jersey numbers and full names will be echoed to a label which appears in the blank
 space of the screen. Numbers and names are pulled directly from the local roster.txt file,
 which must be written on its own to match the team information.</p>
+
+[rosterScreenshot](/screenshots/rostertxt.png/)
 
 <p>When recording a stat while a player is selected, the change will be echoed to a text label
 above the "Block Errors" and "Blocked" buttons. Observe that the default value of the label
 is "No changes made yet".</p>
 
+[changeStatScreenshot](/screenshots/addstat.png/)
+
 <p>Trying to press "Enter" while an invalid jersey number is inputted will result in an error
 message in both the player name text label and the changes made text label.</p>
+
+[invalidJerseyScreenshot](/screenshots/invalidjersey.png/)
 
 <p>To avoid incorrect addition of stats, pressing "Enter" after entering a valid jersey number
 is <b>required</b>. The user will be prompted to press "Enter" if they attempt to click a
 stat button after only typing in a new jersey number into the text box and not pressing "Enter".</p>
+
+[enterErrorScreenshot](/screenshots/errorsjersey.png/)
+
 
 <h3>Developer's Notes</h3>
 <p>While writing this feature, I knew that the user would probably be more accustomed to the 
@@ -117,6 +131,8 @@ just witnessed. I found this to be the optimal method of associating players to 
 <p>Generates a small colored bar graph illustrating the point distribution over time between
 both teams </p>
 
+[gameFlowScreenshot](/screenshots/flow.png/)
+
 <h3>Developer's Notes</h3>
 <p>A feature that was implemented much later after the initial version of the application.
 Gives a general idea of how the momentum of the game changes over time and highlights the
@@ -128,6 +144,9 @@ to the session only while the application is running.</p>
 <h2>End of Game CSV File Generation</h2>
 <p>Creates a new .csv file in the local directory displaying all stats recorded in the session.</p>
 
+[csvInFolderScreenshot](/screenshots/generatedcsv.png/)
+[csvOpenedScreenshot](/screenshots/openedcsv.png/)
+
 <p>This feature takes all the data from the structure created to store the stats and writes
 the new .csv file line by line. The file will be formatted with all names and 
 jersey numbers of players in the first column and all stat categories as headers.</p>
@@ -136,9 +155,14 @@ jersey numbers of players in the first column and all stat categories as headers
 attempting to create a .csv file for the recorded game, as the title of the resulting file
 will depend on the input of this text box. <b></p>
 
+[defaultVSScreenshot](/screenshots/beforevsteam.png/)
+[confirmVSScreenshot](/screenshots/aftervsteam.png/)
+
 <p>Titles will be in the form of "YYYY-MM-DD vs. OpposingTeam"</p>
 
 
 <h2>Check Stats Button</h2>
 <p>Logs the main data structure containing all stats to the console, helpful for making sure
 the correct changes were made without having to create the final .csv file.</p>
+
+[checkStatsScreenshot](/screenshots/checkstats.png/)
