@@ -1,7 +1,18 @@
 # SpikeStats
 
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Features](#features)
+    * [Grid Layout](#stat-button-grid)
+    * [Assigning a Stat to a Player](#assigning-a-stat-to-a-player)
+        + [Developer's Notes](#devnotes1)
+    * [Game Flow](#game-flow)
+        + [Developer's Notes](#devnotes2)
+    * [End of Game CSV File Generation](#end-of-game-csv-file-generation)
+    * [Check Stats Button](#check-stats-button)
+
 # Introduction
-## (skip to <a href="#features">Features</a> section for detailed look at the interface and structure of the program)
 <!--<h2>(skip to Functions section for a detailed look at the inner functions of the program)</h2>-->
 
 <p>SpikeStats is a Python program I wrote in high school using the TkInter GUI library and 
@@ -62,7 +73,7 @@ can be applicable in so many ways. Have a look at the features and inner functio
 program below.</p>
 
 
-# <a id="features"></a>Features
+# Features
 ## Stat Button Grid
 <p>Upon running the application, the user in encountered with a large grid full of buttons,
 most of which display the label of a relevant volleyball stat.</p>
@@ -117,7 +128,7 @@ stat button after only typing in a new jersey number into the text box and not p
 ![invalidJerseyScreenshot](/screenshots/invalidjersey.png/)
 
 
-### Developer's Notes
+### <a id = "devnotes1"></a>Developer's Notes
 <p>While writing this feature, I knew that the user would probably be more accustomed to the 
 players' names, but I felt like entire names would take too long to write out, and some players
 shared the same first or last names, so this was not a viable approach. I chose to use jersey
@@ -133,7 +144,7 @@ both teams </p>
 
 ![gameFlowScreenshot](/screenshots/flow.png/)
 
-### Developer's Notes
+### <a id = "devnotes2"></a>Developer's Notes
 <p>A feature that was implemented much later after the initial version of the application.
 Gives a general idea of how the momentum of the game changes over time and highlights the
 points at which a team may struggle to score at an attempt to locate trends. This was never
